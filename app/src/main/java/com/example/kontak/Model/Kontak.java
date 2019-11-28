@@ -10,7 +10,8 @@ public class Kontak {
     @SerializedName("nomor")
     private String nomor;
 
-    public Kontak(){}
+    public Kontak() {
+    }
 
     public Kontak(String id, String nama, String nomor) {
         this.id = id;
@@ -41,5 +42,7 @@ public class Kontak {
     public void setNomor(String nomor) {
         this.nomor = nomor;
     }
+
 }
+
 

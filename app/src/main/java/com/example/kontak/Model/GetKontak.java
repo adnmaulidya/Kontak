@@ -29,5 +29,6 @@ public class GetKontak {
     public void setListDataKontak(List<Kontak> listDataKontak) {
         this.listDataKontak = listDataKontak;
     }
+
 }
 
